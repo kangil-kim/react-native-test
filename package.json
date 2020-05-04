@@ -1,0 +1,32 @@
+{
+  "name": "react-native-test",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start --reset-cache",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "16.11.0",
+    "react-native": "0.62.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/runtime": "^7.9.6",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "@types/react": "^16.9.34",
+    "@types/react-native": "^0.62.5",
+    "babel-jest": "^25.5.1",
+    "jest": "^25.5.4",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-native-typescript-transformer": "^1.2.13",
+    "react-test-renderer": "16.11.0",
+    "typescript": "^3.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
